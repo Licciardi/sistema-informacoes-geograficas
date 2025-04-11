@@ -1,7 +1,7 @@
-🌍 Sistema de Gestão de Países
+#🌍 Sistema de Gestão de Países
 Este é um projeto em C# criado com o objetivo de gerenciar informações sobre países. Ele permite o cadastro, listagem, remoção e pesquisa de países por nome ou continente. A aplicação calcula também o PIB per capita de cada país a partir dos dados informados.
 
-📋 Funcionalidades
+##📋 Funcionalidades
 ✅ Adicionar país com nome, população, capital, continente e PIB.
 
 📌 Listar países cadastrados.
