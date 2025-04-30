@@ -25,14 +25,13 @@ void exibirMenu()
    
 
 
-    Console.WriteLine("\n=== Menu de Países ===");
+    Console.WriteLine("\n=== Menu ===");
     Console.WriteLine("1 - Adicionar um país");
     Console.WriteLine("2 - Listar países");
     Console.WriteLine("3 - Remover um país");
     Console.WriteLine("4 - Procurar um país");
     Console.WriteLine("5 - Listar países por continente");
-    Console.WriteLine("6 - Atualizar dados de um país");
-    Console.WriteLine("7 - Sair do menu");
+    Console.WriteLine("6 - Sair do menu");
     Console.Write("\nEscolha uma opção: ");
 
     
@@ -58,10 +57,8 @@ void exibirMenu()
         case 5:
                 paisesRepository.PesquisarPaisesContinente();
             break;
+    
         case 6:
-            Console.WriteLine("Atualizar dados de um País");
-            break;
-        case 7:
             Console.WriteLine("Sair do Menu");
             break;
         default:

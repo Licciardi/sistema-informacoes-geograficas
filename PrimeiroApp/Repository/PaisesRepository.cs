@@ -127,8 +127,12 @@ class PaisesRepository
                 Console.WriteLine(pais);
                 break;
             }
-            else { Console.WriteLine("País não encontrado na base de dados"); }
 
+
+        }
+        if (paises.All(p => !p.Nome.Equals(nomePesquisado, StringComparison.OrdinalIgnoreCase)))
+        {
+            Console.WriteLine("País não encontrado");
         }
     }
 
@@ -200,5 +204,9 @@ class PaisesRepository
 
 
     }
+
+ 
+
+    
 }
 
